@@ -1,0 +1,21 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "com.rustercraft.stackablearmorandtools.mixin",
+  "compatibilityLevel": "JAVA_17",
+  "refmap": "stackablearmorandtools.refmap.json",
+  "mixins": [
+    "AbstractContainerMenuMixin",
+    "CreativeModeInventoryScreenMixin",
+    "InventoryMixin",
+    "ItemEntityMixin",
+    "ItemMixin",
+    "ItemStackMixin",
+    "SlotMixin"
+  ],
+  "client": [],
+  "server": [],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}
